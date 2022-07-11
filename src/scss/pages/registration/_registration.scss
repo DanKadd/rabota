@@ -1,0 +1,26 @@
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  &__title {
+    font-size: 25px;
+    display: block;
+    margin-top: 10px;
+  }
+  &__btn {
+    margin-top: 15px !important;
+  }
+  &__hasAccount {
+    text-align: right;
+    margin-top: 15px;
+  }
+  &__hasAccount-link {
+    display: inline-block;
+  }
+}

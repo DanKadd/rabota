@@ -1,0 +1,14 @@
+.header {
+  padding: 20px 0;
+  background-color: rgb(174, 200, 230);
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
